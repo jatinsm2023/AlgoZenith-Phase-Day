@@ -1,34 +1,45 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int long long
+#define ll int64_t
+#define endl '\n'
 
 int n;
-pair<int,int> p[101];
-
-double sq(double x){
-    return x*x;
+vector<vector<ll>> dp;
+vector<ll> a;
+ll rec(int i, int j) {
+    if (abs(j - i) == 1)return 0;
+    auto &ans = dp[i][j];
+    if (ans != -1)return ans;
+    ans = 1e18;
+    for (int k = i + 1; k <= j - 1; k++)ans = min(ans, a[i] * a[k] * a[j] + rec(i, k) + rec(k, j));
+    return ans;
 }
-
-double cost(int x, int y){
-    return sqrt(sq(p[x].first-p[y].first)+sq(p[x].second-p[y].second));
+ll minTriangulation(vector<ll>& v) {
+    n = v.size();
+    a = v;
+    dp.assign(n + 1, vector<ll>(n + 1, -1));
+    return rec(0, n - 1);
 }
-
-signed main(){
-    cin>>n;
-    for( int i=1; i<=n;i++){
-        cin>>p[i].first>>p[i].second;
-    }
-
-    double dp[n+1][n+1];
-    for( int len = 3; len<=n; len++){
-        for( int l = 1; l+len-1<=n ;l++){
-            int r  = l+len-1;
-            if(len==3){
-                return 0;
-            }
-            
-        }
+void solve() {
+    int n;
+    cin >> n;
+    vector<ll> v(n);
+    for (int i = 0; i < n; i++)cin >> v[i];
+    auto ans=minTriangulation(v);
+    cout << ans << endl;
+    assert(ans>0);
+}
+int main() {
+    ios_base :: sync_with_stdio(0);
+    cin.tie(nullptr); cout.tie(nullptr);
+    int t = 1;
+    // int i = 1;
+    cin >> t;
+    while (t--) {
+        // cout << "Case #" << i << ": ";
+        solve();
+        // i++;
     }
     return 0;
 }

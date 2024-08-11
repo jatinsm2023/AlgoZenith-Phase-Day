@@ -22,3 +22,11 @@ Constraints
 - 1≤v[i]≤10 
  
 Sum of n over all test cases is ≤5000.
+
+
+## Intiution
+In these type of problems, We will be given a function in terms of some parameter of Triangle. We need to minimize or maximize that.
+
+So We follow the 4th Form Idea of Dynamic Programming.
+ 
+Dp(l,r) = max(cost(l,x)+cost(x,r)+dp(l,x)+dp(x,r)) for all 'l< x< r'.
