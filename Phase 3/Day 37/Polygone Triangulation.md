@@ -7,7 +7,9 @@ Output the smallest possible total score that you can achieve with some triangul
 
 ## Input Format
 First Line contains T - the number of test cases.
+
 The First Line of each test case contains n - the number of vertices of the convex polygon.
+
 The second line of each test case containsvn space-separated values v[i] of the vertices in clockwise order.
 
 ## Output Format
