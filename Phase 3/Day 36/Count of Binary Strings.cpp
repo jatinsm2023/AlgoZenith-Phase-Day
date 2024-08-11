@@ -36,10 +36,9 @@ int rec( int length, int state){
 int main() {
     int t;
     cin>>t;
+    memset(dp, -1, sizeof(dp));
     while(t--){
-        memset(dp, -1, sizeof(dp));
         cin>>n;
-
         cout<<rec(0,0)<<'\n';
     }
 }
