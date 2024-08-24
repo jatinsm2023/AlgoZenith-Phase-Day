@@ -23,10 +23,14 @@ Return a vector < vector < int > > having 00-based indices of the elements of th
 #### Case 1
 ##### Input
 5 3
+
 1 2 3 4 5
+
 7 16 3
 
 ##### Output
 1
+
 -1
+
 1
