@@ -8,7 +8,7 @@ Complete the Function subset_queries( vector &arr, vector &queries ) that takes 
 
 ### Output Format
 
-Return a vector < vector < int > > having 00-based indices of the elements of the array whose subset-sum is equal to the queried sum sumisumi​ for each ithith query, if possible, else return vector { −1−1 }.
+Return a vector <vector<int>> having 0-based indices of the elements of the array whose subset-sum is equal to the queried sum sumisumi​ for each ithith query, if possible, else return vector { −1 }.
 
 ### Constraints
 
