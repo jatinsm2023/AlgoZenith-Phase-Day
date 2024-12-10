@@ -40,7 +40,11 @@ void solve()
     }
     else
     {
-        memset(dp, -1, sizeof(dp));
+        for(int i=0;i<s.length(); i++){
+            for(int j=0;j<s.length() ; j++){
+                dp[i][j]=-1;
+            }
+        }
         cout << rec(0, 0) << '\n';
     }
 }

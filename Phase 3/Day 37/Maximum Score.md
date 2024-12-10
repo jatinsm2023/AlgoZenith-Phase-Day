@@ -17,3 +17,37 @@ For each test case, if it is possible, you have to find the maximal score you ca
 - 1 ≤ N, M ≤ 100
 
 - 1≤ K ≤ 11
+
+
+### Input
+3
+
+4 3 11
+
+194
+
+707
+
+733
+
+633
+
+2 4 2
+
+3916
+
+9593
+
+2 2 4
+
+15
+
+52
+
+### Output
+
+22
+
+18
+
+-1

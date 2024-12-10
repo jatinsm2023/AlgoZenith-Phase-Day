@@ -12,3 +12,15 @@ For each test case, print the number of binary strings of length n where “0100
 ## Constraints
 - 1 ≤ t ≤ 106
 - 1 ≤ n ≤ 106 where n is the length of the string.
+
+
+#### Input 
+3
+3
+4
+5
+
+#### Output
+8
+15
+28
