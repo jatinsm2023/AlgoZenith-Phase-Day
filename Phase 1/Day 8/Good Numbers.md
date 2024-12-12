@@ -16,35 +16,65 @@ For each query print how many numbers in the range [L,R] is good in a new line.
 
 ### Test Case 1 
 10 3 10
+
 1 5
+
 2 7
+
 3 9
+
 1 5
+
 3 8
+
 4 10
+
 7 10
+
 8 8
+
 5 5
+
 6 7
+
 1 5
+
 3 8
+
 4 9
+
 3 10
+
 2 6
+
 3 9
+
 7 7
+
 5 5
+
 8 8
+
 3 7
 
 ### Output 
+
 4
+
 6
+
 6
+
 7
+
 5
+
 7
+
 1
+
 1
+
 1
+
 5

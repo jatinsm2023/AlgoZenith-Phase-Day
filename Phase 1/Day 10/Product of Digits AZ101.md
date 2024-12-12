@@ -21,16 +21,26 @@ For each test case, print the product of digits of the number modulo 10^9 + 7.
 It is guaranteed that the sum of N over all test cases does not exceed 106.
 
 ### Sample Input
+
 3
+
 5
+
 1 5 2 3 4
+
 4
+
 9 0 5 3
+
 3
+
 2 2 2
 
 
 ### Sample Output
+
 120
+
 0
+
 8

@@ -23,19 +23,35 @@ For each test case, print Q space-separated integers, where ith number denotes t
 
 
 ### Sample Input
+
 2
+
 3 3 4
+
 1 3 2
+
 1 3
+
 2 3
+
 1 1
+
 1 2 5 8
+
 4 2 3
+
 1 5 4 3
+
 1 4
+
 1 3
+
 1 5 7
 
+
+
 ### Sample Output
+
 1 1 3 -1 
+
 1 4 5 

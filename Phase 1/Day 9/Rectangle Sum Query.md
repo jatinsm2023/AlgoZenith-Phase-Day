@@ -12,21 +12,39 @@ Next Q lines contains four space separated integers x1, y1, x2, y2 where 1<=x1<=
 For each query print, the sum of submatrix with (x1,y1) be the leftmost corner and (x2,y2) be the rightmost corner in a new line %10^9+7.
 
 ### Sample Input
+
 5 5 5
+
 -1 2 3 -4 2
+
 0 0 0 0 4
+
 1 2 4 3 5
+
 -1 -5 -2 3 4
+
 0 -3 -5 3 -6
+
 1 1 2 2
+
 1 2 3 4
+
 2 3 3 3
+
 4 4 4 4
+
 2 3 2 4
 
+
+
 ### Sample Output
+
 1
+
 10
+
 4
+
 3
+
 0

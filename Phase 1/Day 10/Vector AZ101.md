@@ -27,20 +27,34 @@ For each test case, print the required queries.
 It is guaranteed that the sum of Q over all test cases does not exceed 10^6.
 
 ### Sample Input
+
 1
+
 9
+
 add 3
+
 add 4
+
 print 1
+
 remove
+
 add 7
+
 add 2
+
 print 0
+
 clear
+
 print 0
 
 
 ### Sample Input
+
 4
+
 3
+
 0

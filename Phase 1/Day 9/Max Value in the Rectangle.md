@@ -12,13 +12,20 @@ The next Q lines contains five space separated integers x1, y1, x2, y2, C where 
 After all the query is performed, print 2 space-separated integers representing the maximum value present in the 2d-array and the number of the cell with the maximum value.
 
 ### Sample Input
+
 5 5 5
+
 1 1 2 2 -8
+
 1 2 3 4 9
+
 2 3 3 3 -2
+
 4 4 4 4 -4
+
 2 3 2 4 0
 
 
 ### Sample Output
+
 9 5
